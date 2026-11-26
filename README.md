@@ -2,12 +2,6 @@
 Analyzed churn across 7,043 telecom customers using Databricks SQL and Power BI. Month-to-month fiber customers made up 30.2% of the customer base and accounted for 72.2% of monthly revenue lost to churn.
 
 
-# DataProject
-
-## test 1
-### test 2 
-#### test 3
-
 ## Table of Contents 
 - [Project Overview](#project-overview) 
 - [Recommentations](#recommentations) 
@@ -47,6 +41,14 @@ SELECT * from TEST
 The analysis results are summarized as following:
 
 ### Recommentations
+Data to gather:
+- geografiskt område eller vilken konkurrent kunden gick till behöver du uppgifter om plats respektive ny leverantör. Detsamma gäller bransch och företagsstorlek.
+- För att skilja en frivillig uppsägning från exempelvis en misslyckad betalning behöver du uppsägningsorsaker eller betalningshistorik.
+- daterade kunduppgifter från före uppsägningen och en senare period där du kan kontrollera utfallet. Då kan man förutspå vilka kunder som kommer att lämna. Denna rapport kan bara beskriva observerat kundtapp.
+
+Rekommendation idag är att fokusera på kundgrupp... för att behålla den kundgruppen kan man ge erbjudanden och testa vidare med en A och B jämförelse.
+
+
 
 ### Limitations 
 Budget was to small and i hade to take away outlieyers 
